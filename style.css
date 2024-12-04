@@ -1,0 +1,49 @@
+.main {
+  height: 100vh;
+  background-image: linear-gradient(120deg, rgb(233 221 233), rgb(250 212 194));
+}
+
+body {
+  overflow-x: hidden;
+}
+
+input {
+  background: transparent;
+  border: none;
+  height: 40px;
+  margin: 2px;
+}
+
+.text-field span {
+  background-color: rgb(252 237 232);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.butn {
+  width: 100%;
+  border: none;
+  background-color: rgb(224 64 24);
+  height: 45px;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+
+p a {
+  color: rgb(224 64 24);
+}
+
+.signup-text .text {
+  border-bottom: 3px solid rgb(74, 74, 74);
+  width: max-content;
+}
+
+.signup-text .signup {
+  border-bottom: 3px solid rgb(224 64 24);
+  width: max-content;
+  color: rgb(224 64 24);
+}
