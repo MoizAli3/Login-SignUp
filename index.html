@@ -23,19 +23,19 @@
                 <p class="text-body">Enter your credential for login</p>
             </div>
             <div class="text-field col-12 col-md-10">
-                <form action="" onsubmit="return false">
+                <form id="form" onsubmit="return false">
                     <span class="d-flex align-items-center gap-2 mb-3">
                         <i class="fa-solid fa-user"></i>
-                        <input type="text" name="user" placeholder="Enter Your Username" autofocus>
+                        <input type="email" name="email" placeholder="Enter Your Username" autofocus>
                     </span>
                     <span class="d-flex align-items-center gap-2 mb-1">
                         <i class="fa-solid fa-lock"></i>
                         <input type="password" name="pass" placeholder="Enter Your Password">
                     </span>
                     <p>
-                        <a href="#" class="link-underline-light mb-5 mx-1">Forget Password ?</a>
+                        <a href="#" class="link-underline-light mb-5 mx-1" id="forget"  >Forget Password ?</a>
                     </p>
-                    <button class="butn mt-3" onclick="login()">Login Now</button>
+                    <button class="butn mt-3" id="login" >Login Now</button>
                 </form>
             </div>
             <div class="signup-text text-center mt-5">
@@ -45,7 +45,7 @@
             </div>
         </div>
     </div>
-    <script src="app.js"></script>
+    <script type="module" src="login.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

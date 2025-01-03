@@ -20,7 +20,7 @@
                 <p class="text-body">Create your account</p>
             </div>
             <div class="text-field col-12 col-md-10">
-                <form action="index.html" onsubmit="return false">
+                <form action="index.html" id="signUpForm" onsubmit="return false">
                     <span class="d-flex align-items-center gap-2 mb-3">
                         <i class="fa-solid fa-user"></i>
                         <input type="text" name="user" placeholder="Username" autofocus>
@@ -36,7 +36,7 @@
                     <span class="d-flex align-items-center gap-2 mb-1">
                         <i class="fa-solid fa-lock"></i>
                         <input type="password" name="conf_pass" placeholder="Confirm Password"></span>
-                    <button class="butn mt-3" onclick="signUp()">Sign Up</button>
+                    <button class="butn mt-3 signup" >Sign Up</button>
                 </form>
             </div>
             <div class="signup-text text-center mt-5">
@@ -50,7 +50,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
-    <script src="app.js"></script>
+    <script type="module" src="app.js"></script>
 </body>
 
 </html>
